@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+}
+
+:root {
+    --primary: #EEF1FF;
+    --secondary: #AAC4FF;
+    --three: #B1B2FF;
+}
+
+.input-section>h1 {
+    color: var(--three);
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+}
+
+.input-section>input {
+    width: 30%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--three);
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+table {
+    margin-top: 5rem;
+}
+
+th {
+    color: #B1B2FF;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+td>a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.clg-name {
+    font-weight: 600;
+}
