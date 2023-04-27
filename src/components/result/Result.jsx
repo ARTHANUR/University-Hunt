@@ -7,12 +7,12 @@ const Result = ({ pdata }) => {
             <>
                 <tr>
                     <td>
-                        {item.country} , {item["state-province"]}
+                        {item?.country} , {item["state-province"]}
                     </td>
-                    <td className="clg-name"> {item.name} </td>
-                    <td>{item.domains} </td>
+                    <td className="clg-name"> {item?.name} </td>
+                    <td>{item?.domains} </td>
                     <td>
-                        <a href={item.web_pages}> Know more </a>
+                        <a href={item?.web_pages}> Know more </a>
                     </td>
                 </tr>
             </>
